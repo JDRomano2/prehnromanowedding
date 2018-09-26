@@ -1,9 +1,7 @@
 import React from 'react';
 import { Grid, Image } from 'semantic-ui-react';
 
-import Profile from './Profile';
-
-import png from '../images/wireframe/square-image.png';
+import Profile from './Profile.jsx';
 
 class Party extends React.Component {
   render() {

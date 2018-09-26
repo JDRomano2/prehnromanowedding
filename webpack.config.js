@@ -7,7 +7,7 @@ const htmlPlugin = new HtmlWebpackPlugin({
 });
 
 module.exports = {
-    entry: './src/index.js',
+    entry: './src/index.jsx',
     output: {
         filename: 'bundle.js',
         path: path.resolve(__dirname, 'dist')
@@ -15,7 +15,7 @@ module.exports = {
     module: {
         rules: [
             {
-                test: /\.js$/,
+                test: /\.js?x$/,
                 exclude: /node_modules/,
                 use: 'babel-loader'
             },
@@ -28,9 +28,7 @@ module.exports = {
             },
             {
                 test: /\.(png|svg|jpg|gif)$/,
-                use: [
-                    'file-loader'
-                ],
+                loader: 'file-loader',
                 options: {
                     name: 'images/[hash].[ext]'
                 }

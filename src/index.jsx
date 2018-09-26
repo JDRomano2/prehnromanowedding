@@ -2,12 +2,12 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { Switch, Route, BrowserRouter } from 'react-router-dom';
 
-import TopBar from './components/TopBar';
-import Home from './components/Home';
-import Story from './components/Story';
-import Venue from './components/Venue';
-import Party from './components/Party';
-import Registry from './components/Registry';
+import TopBar from './components/TopBar.jsx';
+import Home from './components/Home.jsx';
+import Story from './components/Story.jsx';
+import Venue from './components/Venue.jsx';
+import Party from './components/Party.jsx';
+import Registry from './components/Registry.jsx';
 
 //import './semantic/dist/semantic.min.js';
 import './semantic/dist/semantic.min.css';
