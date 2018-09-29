@@ -30,10 +30,10 @@ body {
     font-family: 'Linux Libertine';
 }
 
-h1 {
-    font-family: 'Linux Libertine';
-}
-
 #topbar {
     margin-top: 75px;
+}
+
+#party-name {
+    text-align: center;
 }
