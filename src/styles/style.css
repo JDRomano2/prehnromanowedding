@@ -31,9 +31,27 @@ body {
 }
 
 #topbar {
-    margin-top: 75px;
+    margin-top: 20px;
+}
+
+#topdiv {
+    width: 80%;
+    display: inline-block;
+    margin-top: 50px;
+}
+
+#toptext {
+    margin-bottom: 0px;
+}
+
+#topname {
+    margin: 0 0 0 0;
 }
 
 #party-name {
     text-align: center;
+}
+
+html * {
+    font-family: 'Linux Libertine' !important;
 }

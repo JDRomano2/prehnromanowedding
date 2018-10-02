@@ -1,5 +1,6 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 const htmlPlugin = new HtmlWebpackPlugin({
     template: "./src/index.html",
@@ -31,18 +32,24 @@ module.exports = {
                 test: /\.(png|svg|jpg|gif)$/,
                 loader: 'file-loader',
                 options: {
-                    name: 'images/[hash].[ext]'
+                    name: 'images/[name].[ext]'
                 }
             },
             {
                 test: /\.(woff|woff2|eot|ttf|otf)$/,
-                use: [
-                    'file-loader'
-                ]
+                loader: 'file-loader',
+                options: {
+                    name: 'fonts/[hash].[ext]'
+                }
             }
         ]
     },
-    plugins: [htmlPlugin],
+    plugins: [
+        htmlPlugin,
+        new CopyWebpackPlugin([
+            { from: 'src/static' }
+        ])
+    ],
     devServer: {
         historyApiFallback: true
     },

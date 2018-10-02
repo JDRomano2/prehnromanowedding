@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import { Switch, Route, BrowserRouter } from 'react-router-dom';
+import { Header } from 'semantic-ui-react';
 
 import TopBar from './components/TopBar.jsx';
 import Home from './components/Home.jsx';
@@ -16,9 +17,22 @@ import './styles/style.css';
 const App = () => (
   <div className='ui grid centered'>
       <BrowserRouter>
-        <div style={{ width: '80%', display: 'inline-block'}}>
+        <div id='topdiv'>
+          <p id='toptext'>
+            <i>The wedding of</i>
+          </p>
+          <Header as='h1' id='topname'>
+            Sarah Elizabeth Prehn
+          </Header>
+          <p id='toptext'>
+            <i>and</i>
+          </p>
+          <Header as='h1' id='topname'>
+            Joseph Daniel Romano
+          </Header>
+          <div className='spacer row' style={{ height: '15px' }} />
           <TopBar />
-          <div className='spacer row' style={{ height: '100px' }} />
+          <div className='spacer row' style={{ height: '75px' }} />
           <Switch>
             <Route exact path="/" component={Home} />
             <Route exact path="/story" component={Story} />
