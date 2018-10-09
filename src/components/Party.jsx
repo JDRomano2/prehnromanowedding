@@ -24,6 +24,7 @@ class Party extends React.Component {
               name='Breanna Liggan'
               role='Maid of Honor'
               relation='Friend of the Bride'
+              image='bre-1'
             />
           </Grid.Row>
           <div className='spacer' style={{ height: '50px' }} />
@@ -56,6 +57,7 @@ class Party extends React.Component {
               name='SarahRose Hogan'
               role='Bridesmaid'
               relation='Friend of the Bride'
+              image='sr-1'
             />
           </Grid.Row>
           <div className='spacer' style={{ height: '50px' }} />
@@ -87,6 +89,7 @@ class Party extends React.Component {
               name='Tess Romano'
               role='Bridesmaid'
               relation='Sister of the Groom'
+              image='tess-1'
             />
           </Grid.Row>
 

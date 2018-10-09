@@ -28,6 +28,7 @@
 
 body {
     font-family: 'Linux Libertine';
+    background-color: #EEE9E4;
 }
 
 #topbar {
@@ -50,6 +51,20 @@ body {
 
 #party-name {
     text-align: center;
+}
+
+.profile-name {
+    font-size: 18px;
+    margin-top: 6px;
+}
+
+.profile-role {
+    font-size: 16px;
+    margin-top: 2px;
+}
+
+.profile-relation {
+    font-size: 14px;
 }
 
 html * {

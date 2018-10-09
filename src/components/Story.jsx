@@ -19,14 +19,14 @@ class Story extends React.Component {
 
           <Header as='h2'>How We Met</Header>
           <p>
-            On a cold day in February 2015, we met at The Hungarian Pastry Shop in Morningside Heights, NYC, after randomly matching on a dating app. We both played brass instruments in jazz bands, both had visited Japan, both lived in Harlem, and both were left handed. We knew we had to meet up again soon! We then planned to have a real first date at Yakitori Totto, in Midtown Manhattan, a week later.
+            We first met at The Hungarian Pastry Shop in Morningside Heights, NYC.
           </p>
 
           <Divider />
 
           <Header as='h2'>Our Engagement</Header>
           <p>
-            On September 11, 2018,
+            Joe proposed to Sarah at the top of a day hike in Rocky Mountain National Park.
           </p>
         </Container>
       </div>

@@ -27,15 +27,15 @@ class Profile extends React.Component {
         />
 
         <div className='wrapper'>
-          <Container textAlign='center' style={{fontFamily: 'Linux Libertine'}}>
+          <Container textAlign='center' className='profile-name'>
             {this.state.name}
           </Container>
 
-          <Container textAlign='center' style={{fontFamily: 'Linux Libertine'}}>
+          <Container textAlign='center' className='profile-role'>
             {this.state.role}
           </Container>
 
-          <Container textAlign='center' style={{fontFamily: 'Linux Libertine'}}>
+          <Container textAlign='center' className='profile-relation'>
             <i>{this.state.relation}</i>
           </Container>
         </div>
