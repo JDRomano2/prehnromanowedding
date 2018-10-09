@@ -1,31 +1,18 @@
 import React from 'react';
-import { Container, Header, Divider } from 'semantic-ui-react';
+import { Container, Header, Divider, Link } from 'semantic-ui-react';
 
 class Registry extends React.Component {
   render() {
     return (
       <div>
         <Container text>
-          <p style={{ textAlign: 'left' }}>
-            If you would like to leave us a wedding gift, we have prepared a wedding registry, as well as a honeymoon fund. Any contributions to either of these are greatly appreciated, but your attendance at our wedding celebration is enough of a gift!
-          </p>
-
-          <Divider />
-
           <Header as='h2'>
-            Gift Registry
+            Gift/Honeymoon Registry
           </ Header>
           <p>
-
-          </p>
-
-          <Divider />
-
-          <Header as='h2'>
-            Honeymoon Registry
-          </Header>
-          <p>
-
+            <a href="https://registry.theknot.com/sarah-prehn-joseph-romano-august-2019-ny/28713339">
+              https://registry.theknot.com/sarah-prehn-joseph-romano-august-2019-ny/28713339
+            </a>
           </p>
         </Container>
       </div>
