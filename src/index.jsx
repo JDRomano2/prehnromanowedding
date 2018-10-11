@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import { Switch, Route, BrowserRouter } from 'react-router-dom';
-import { Header } from 'semantic-ui-react';
+import { Header, Divider } from 'semantic-ui-react';
 
 import TopBar from './components/TopBar.jsx';
 import Home from './components/Home.jsx';
@@ -30,9 +30,9 @@ const App = () => (
           <Header as='h1' id='topname'>
             Joseph Daniel Romano
           </Header>
-          <div className='spacer row' style={{ height: '15px' }} />
+          <Divider hidden style={{ height: '15px' }} />
           <TopBar />
-          <div className='spacer row' style={{ height: '75px' }} />
+          <Divider hidden style={{ height: '75px' }} />
           <Switch>
             <Route exact path="/" component={Home} />
             <Route exact path="/story" component={Story} />
@@ -40,6 +40,7 @@ const App = () => (
             <Route exact path="/party" component={Party} />
             <Route exact path="/registry" component={Registry} />
           </Switch>
+          <Divider hidden section />
         </div>
       </BrowserRouter>
   </div>
