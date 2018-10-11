@@ -81,7 +81,7 @@ class Party extends React.Component {
 
           <Grid.Row centered>
             <Profile
-              name='TBD'
+              name='Alexandre Yahi'
               role='Groomsman'
               relation='Friend of the Groom'
             />

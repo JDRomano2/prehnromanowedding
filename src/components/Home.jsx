@@ -1,7 +1,6 @@
 import React from 'react';
 import { Header, Image } from 'semantic-ui-react';
 
-import senateGarage from '../images/senate-garage-1.jpg';
 import bridge from '../images/bridge.png';
 
 class Home extends React.Component {
