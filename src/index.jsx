@@ -30,9 +30,10 @@ const App = () => (
           <Header as='h1' id='topname'>
             Joseph Daniel Romano
           </Header>
-          <Divider hidden style={{ height: '15px' }} />
+          {/* <Divider hidden style={{ height: '15px' }} /> */}
           <TopBar />
-          <Divider hidden style={{ height: '75px' }} />
+          {/* <div className='spacer row' style={{ height: '15px' }} /> */}
+          <Divider hidden style={{ height: '15px' }} />
           <Switch>
             <Route exact path="/" component={Home} />
             <Route exact path="/story" component={Story} />
