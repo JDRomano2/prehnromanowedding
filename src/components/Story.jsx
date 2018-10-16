@@ -11,9 +11,6 @@ class Story extends React.Component {
       <div>
         <Container text textAlign='left'>
 
-
-          <Divider />
-
           <Header as='h2'>How We Met</Header>
           <p>
             Sarah and Joe were introduced through the dating app Coffee Meets Bagel in February, 2015. Sarah was completing a residency at St. Barnabas Hospital, and Joe was working on his PhD at Columbia University. Although they first met at the Hungarian Pastry Shop in Morningside Heights, their first real date was at Yakitori Totto in Midtown Manhattan. The two hit it off and began dating regularly. At the time, Joe had an apartment that had a mini kitchen, with a half stove and no oven. Sarah was really impressed that Joe would prepare quality meals for them out of these tiny facilities; he even had a toaster oven he would set on a chair to use for baking!

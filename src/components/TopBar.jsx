@@ -7,19 +7,22 @@ class TopBar extends React.Component {
     return (
       <Menu compact pointing secondary id='topbar'>
         <Menu.Item as={Link} to='/'>
-          Home
+          HOME
         </Menu.Item>
         <Menu.Item as={Link} to='/story'>
-          Our Story
+          OUR STORY
         </Menu.Item>
         <Menu.Item as={Link} to='/venue'>
-          Venue
+          VENUE
+        </Menu.Item>
+        <Menu.Item as={Link} to='/planning'>
+          PLANNING
         </Menu.Item>
         <Menu.Item as={Link} to='/party'>
-          Wedding Party
+          WEDDING PARTY
         </Menu.Item>
         <Menu.Item as={Link} to='/registry'>
-          Registry
+          REGISTRY
         </Menu.Item>
       </Menu>
     );

@@ -28,9 +28,7 @@ class Registry extends React.Component {
             Honeymoon Registry
           </Header>
           <p>
-            <a className="zola-registry-embed"
-              href="http://www.zola.com/registry/josephandsarahaugust10"
-              data-registry-key="Sarah & Joe's Honeymoon">
+            <a href="http://www.zola.com/registry/josephandsarahaugust10" target='__blank'>
                 http://www.zola.com/registry/josephandsarahaugust10
             </a>
           </p>
