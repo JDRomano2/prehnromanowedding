@@ -36,7 +36,7 @@ class Story extends React.Component {
           </p>
 
           <p>
-            In September, 2018, Joe and Sarah took a vacation to Denver, Colorado and the surrounding areas. One day, they went hiking at Rocky Mountain National Park. After stopping for lunch by the lake in the Loch Vale, Joe surprised Sarah and proposed! They decided that they would hold their wedding in one of their hometowns, and eventually selected the Senate Garage–a beautiful space located in the heart of uptown Kingston new york, on the grounds of the historic site of the first Senate of the United States. The ceremony will be held in Sarah’s childhood parish, St. Peter’s Catholic Church, in Rosendale, New York.
+            In September, 2018, Joe and Sarah took a vacation to Denver, Colorado and the surrounding areas. One day, they went hiking at Rocky Mountain National Park. After stopping for lunch by the lake in the Loch Vale, Joe surprised Sarah and proposed! They decided that they would hold their wedding in one of their hometowns, and eventually selected the Senate Garage–a beautiful space located in the heart of uptown Kingston, New York, on the grounds of the historic site of the first Senate of the United States. The ceremony will be held in Sarah’s childhood parish, St. Peter’s Catholic Church, in Rosendale, New York.
           </p>
 
           <Image src={selfie} centered style={{marginTop: '36px'}}/>

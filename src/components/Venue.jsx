@@ -36,6 +36,12 @@ class Venue extends React.Component {
           <p>
             <a href="https://goo.gl/maps/hHX3WnEzgXK2" target='_blank'>4 N Front Street, Kingston, NY 12401</a>
           </p>
+
+          <Divider style={{ marginTop: '36px' }} />
+
+          <p>
+            Join us after the reception for an after-party at nearby bars in Uptown Kingston!
+          </p>
         </Container>
       </div>
     );

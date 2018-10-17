@@ -45,7 +45,7 @@ const App = () => (
             <Route exact path="/party" component={Party} />
             <Route exact path="/registry" component={Registry} />
           </Switch>
-          <Divider hidden section />
+          <Divider hidden section style={{ marginTop: '50px' }} />
         </div>
       </BrowserRouter>
   </div>

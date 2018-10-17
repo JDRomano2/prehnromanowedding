@@ -52,6 +52,7 @@ class Party extends React.Component {
               name='Caitlin Prehn'
               role='Bridesmaid'
               relation='Cousin of the Bride'
+              image='caitie-1'
             />
 
             <Profile
@@ -85,6 +86,7 @@ class Party extends React.Component {
               name='Kimberly Lanier Kunze'
               role='Bridesmaid'
               relation='Cousin of the Bride'
+              image='kimberly-1'
             />
 
             <Profile
