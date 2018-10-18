@@ -5,7 +5,7 @@ import { Menu } from 'semantic-ui-react';
 class TopBar extends React.Component {
   render() {
     return (
-      <Menu compact pointing secondary id='topbar'>
+      <Menu compact pointing secondary stackable id='topbar'>
         <Menu.Item as={Link} to='/'>
           HOME
         </Menu.Item>
