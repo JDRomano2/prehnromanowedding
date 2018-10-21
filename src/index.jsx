@@ -19,35 +19,35 @@ import './images/favicon.ico';
 
 const App = () => (
   <div className='ui grid centered'>
-      <BrowserRouter>
-        <div id='topdiv'>
-          <p id='toptext'>
-            THE WEDDING OF
-          </p>
-          <Header as='h1' id='topname'>
-            Sarah Elizabeth Prehn
-          </Header>
-          <p id='toptext'>
-            AND
-          </p>
-          <Header as='h1' id='topname'>
-            Joseph Daniel Romano
-          </Header>
-          {/* <Divider hidden style={{ height: '15px' }} /> */}
-          <TopBar />
-          {/* <div className='spacer row' style={{ height: '15px' }} /> */}
-          <Divider hidden style={{ height: '15px' }} />
-          <Switch>
-            <Route exact path="/" component={Home} />
-            <Route exact path="/story" component={Story} />
-            <Route exact path="/venue" component={Venue} />
-            <Route exact path="/planning" component={Planning} />
-            <Route exact path="/party" component={Party} />
-            <Route exact path="/registry" component={Registry} />
-          </Switch>
-          <Divider hidden section style={{ marginTop: '50px' }} />
-        </div>
-      </BrowserRouter>
+    <BrowserRouter>
+      <div id='topdiv'>
+        <p id='toptext'>
+          THE WEDDING OF
+        </p>
+        <Header as='h1' id='topname'>
+          Sarah Elizabeth Prehn
+        </Header>
+        <p id='toptext'>
+          AND
+        </p>
+        <Header as='h1' id='topname'>
+          Joseph Daniel Romano
+        </Header>
+        {/* <Divider hidden style={{ height: '15px' }} /> */}
+        <TopBar />
+        {/* <div className='spacer row' style={{ height: '15px' }} /> */}
+        <Divider hidden style={{ height: '15px' }} />
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/story" component={Story} />
+          <Route exact path="/venue" component={Venue} />
+          <Route exact path="/planning" component={Planning} />
+          <Route exact path="/party" component={Party} />
+          <Route exact path="/registry" component={Registry} />
+        </Switch>
+        <Divider hidden section style={{ marginTop: '50px' }} />
+      </div>
+    </BrowserRouter>
   </div>
 );
 

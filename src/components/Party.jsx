@@ -11,9 +11,9 @@ class Party extends React.Component {
         <h2 style={{fontFamily: 'Linux Libertine'}}>Wedding Party</h2>
         <div id="spacer" style={{ height: '50px' }} />
 
-        <Grid>
+        <Grid centered stackable>
 
-          <Grid.Row centered>
+          <Grid.Row>
             <Profile
               name='Breanna Liggan'
               role='Maid of Honor'
@@ -30,7 +30,7 @@ class Party extends React.Component {
           </Grid.Row>
           <div className='spacer' style={{ height: '50px' }} />
 
-          <Grid.Row centered>
+          <Grid.Row>
             <Profile
               name='Tess Romano'
               role='Bridesmaid'
@@ -47,7 +47,7 @@ class Party extends React.Component {
           </Grid.Row>
           <div className='spacer' style={{ height: '50px' }} />
 
-          <Grid.Row centered>
+          <Grid.Row>
             <Profile
               name='Caitlin Prehn'
               role='Bridesmaid'
@@ -64,7 +64,7 @@ class Party extends React.Component {
           </Grid.Row>
           <div className='spacer' style={{ height: '50px' }} />
 
-          <Grid.Row centered>
+          <Grid.Row>
             <Profile
               name='SarahRose Hogan'
               role='Bridesmaid'
@@ -81,7 +81,7 @@ class Party extends React.Component {
           </Grid.Row>
           <div className='spacer' style={{ height: '50px' }} />
 
-          <Grid.Row centered>
+          <Grid.Row>
             <Profile
               name='Kimberly Lanier Kunze'
               role='Bridesmaid'
