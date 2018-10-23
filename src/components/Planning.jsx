@@ -12,7 +12,10 @@ const Planning = ({}) => {
           Best Western Plus
         </Header>
         <p>
-          We have secured rooms at The Best Western Plus, conveniently located 0.7 miles from the Senate Garage. Check back soon for details on how to make a reservation at a discounted rate. {/*You can reserve a room at a discounted rate by calling the hotel or using the link below to reserve online. */}
+          We have secured rooms at The Best Western Plus, conveniently located only 0.7 miles from the Senate Garage. You can reserve a room at a discounted rate by calling the hotel or using the link below to reserve online:
+        </p>
+        <p>
+          <a href="https://www.bestwestern.com/en_US/book/hotel-rooms.33159.html?groupId=K44SS2E9" target='__blank'>https://www.bestwestern.com/en_US/book/hotel-rooms.33159.html?groupId=K44SS2E9</a>
         </p>
         <Header as='h4'>
           Airbnb
