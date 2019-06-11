@@ -1,5 +1,5 @@
 import React from 'react';
-import { Header, Divider, Container } from 'semantic-ui-react';
+import { Header, Divider, Container, List } from 'semantic-ui-react';
 
 const Planning = ({}) => {
   return (
@@ -21,14 +21,55 @@ const Planning = ({}) => {
           Airbnb
         </Header>
         <p>
-          There are many Airbnb options in Uptown Kingston and the surrounding areas. Click on the following link to search current availability (note that some listings may not be posted until closer to the wedding): <a href="https://goo.gl/wYXeYa" target='__blank'>https://goo.gl/wYXeYa</a>
+          There are many Airbnb options in Uptown Kingston and the surrounding areas. Click on the following link to search current availability (note that some listings may not be posted until closer to the wedding):
+        </p>
+        <p>
+        <a href="https://goo.gl/wYXeYa" target='__blank'>https://goo.gl/wYXeYa</a>
         </p>
 
 
-        {/* <Divider />
+        <Divider />
         <Header as='h2'>
-          Things to do in Kingston
-        </Header> */}
+          Things to do in and around Kingston
+        </Header>
+        <Header as='h4'>Breweries</Header>
+        <p>
+          The Hudson Valley is home to a number of great craft breweries. Here are some of our favorites in and around Kingston:
+        </p>
+        <List bulleted>
+          <List.Item href='http://www.keeganales.com/'>Keegan Ales</List.Item>
+          <List.Item href='http://www.arrowoodfarms.com/'>Arrowood Farms</List.Item>
+          <List.Item href='https://www.badseedhardcider.com/'>Bad Seed Cider</List.Item>
+        </List>
+
+        <Header as='h4'>
+          Historic sites
+        </Header>
+        <p>
+          Kingston played an important role in the American Revolution, and accordingly is home to many historic sites, including the following:
+        </p>
+        <List bulleted>
+          <List.Item href='https://parks.ny.gov/historic-sites/18/details.aspx'>Senate House State Historic Site</List.Item>
+          <List.Item href='https://www.hurleyheritagesociety.org/'>Hurley Historic District</List.Item>
+        </List>
+
+        <Header as='h4'>
+          Hiking and other outdoor activities
+        </Header>
+        <List bulleted>
+          <List.Item href='https://parks.ny.gov/parks/127/details.aspx'>Minnewaska State Park</List.Item>
+          <List.Item href='https://www.mohonk.com/a-day-at-mohonk/hiking/'>Mohonk Mountain House hikes</List.Item>
+          <List.Item href='https://walkway.org/'>Walkway Over the Hudson</List.Item>
+          <List.Item href='https://www.wvrta.org/'>Wallkill Valley Rail Trail</List.Item>
+        </List>
+
+        <Header as='h4'>
+          Shopping
+        </Header>
+        <List bulleted>
+          <List.Item href='https://www.kingston-ny.gov/content/11648/8403/11019/11027/default.aspx'>Kingston Stockade District Shopping</List.Item>
+          <List.Item href='http://woodstockguide.com/shopping.html'>Woodstock Shopping</List.Item>
+        </List>
 
         <Divider />
         <Header as='h2'>

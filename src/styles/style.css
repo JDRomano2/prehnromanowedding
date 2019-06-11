@@ -50,6 +50,7 @@ body {
 #topname {
     margin: 0 0 0 0;
     font-family: 'Linux Libertine';
+    /* color: #5d9468; */
 }
 
 #party-name {
@@ -70,6 +71,10 @@ body {
 
 .profile-relation {
     font-size: 14px;
+    font-family: 'Linux Libertine';
+}
+
+.item {
     font-family: 'Linux Libertine';
 }
 
