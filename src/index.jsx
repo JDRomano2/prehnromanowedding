@@ -1,5 +1,5 @@
-import React from "react";
-import ReactDOM from "react-dom";
+import React from 'react';
+import ReactDOM from 'react-dom';
 import { Switch, Route, BrowserRouter } from 'react-router-dom';
 import { Header, Divider } from 'semantic-ui-react';
 
@@ -11,11 +11,14 @@ import Planning from './components/Planning.jsx';
 import Party from './components/Party.jsx';
 import Registry from './components/Registry.jsx';
 
-//import './semantic/dist/semantic.min.js';
+// import './semantic/dist/semantic.min.js';
 import './semantic/dist/semantic.min.css';
 import './styles/style.css';
 
 import './images/favicon.ico';
+
+// TODO: https://dev.to/nburgess/creating-a-react-app-with-react-router-and-an-express-backend-33l3
+// TODO: Use passport.js for auth
 
 const App = () => (
   <div className='ui grid centered'>
@@ -51,4 +54,4 @@ const App = () => (
   </div>
 );
 
-ReactDOM.render(<App />, document.getElementById("app"));
+ReactDOM.render(<App />, document.getElementById('app'));

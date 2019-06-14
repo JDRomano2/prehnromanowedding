@@ -5,22 +5,22 @@ import bridge from '../images/bridge.png';
 import woods from '../images/woods.png';
 
 class Home extends React.Component {
-  render () {
-    return(
+  render = () => {
+    return (
       <div>
         <Header as='h2'>
           August 10, 2019
         </Header>
-        <p style={{fontSize: '16pt'}}>
+        <p style={{ fontSize: '16pt' }}>
           <i>Kingston, New York</i>
         </p>
 
         <Divider hidden />
-        <Image src={bridge} centered style={{width: '800px'}} />
+        <Image src={bridge} centered style={{ width: '800px' }} />
 
-        <Divider text style={{marginTop: '36px', marginBottom: '36px'}}/>
+        <Divider text style={{ marginTop: '36px', marginBottom: '36px' }}/>
 
-        <Image src={woods} centered style={{width: '800px'}} />
+        <Image src={woods} centered style={{ width: '800px' }} />
       </div>
     );
   }
