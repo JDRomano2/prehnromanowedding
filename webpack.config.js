@@ -54,6 +54,6 @@ module.exports = {
         historyApiFallback: true
     },
     optimization: {
-        minimize: false
+        minimize: true
     }
 };
