@@ -41,6 +41,28 @@ const Planning = ({}) => {
           <a href="https://www.bestwestern.com/en_US/book/hotel-rooms.33159.html?groupId=K44SS2E9" target='__blank'>https://www.bestwestern.com/en_US/book/hotel-rooms.33159.html?groupId=K44SS2E9</a>
         </p>
         <Header as='h4'>
+          1850 House
+        </Header>
+        <p>
+          The 1850 House Inn & Tavern in Rosendale is an excellent option if you
+          prefer a more "bed and breakfast"-like stay. We have been to the tavern
+          many times for drinks with friends and the location is both beautiful
+          and relaxing. Please be aware before booking here that it is close to
+          St. Peter's Church, but is not close to the Senate Garage. Furthermore,
+          since there will not be bus service to this location, we strongly recommend
+          considering who will be your designated driver to/from the reception
+          (carpooling is, of course, a good option)!
+        </p>
+        <p>
+          At the time of writing this, rates for standard rooms at The 1850 House
+          are $239 per night on the weekend of the wedding, but these could be
+          subject to change.
+        </p>
+        <p>
+        <a href="https://www.the1850house.com/en-us" target='__blank'>https://www.the1850house.com/en-us</a>
+        </p>
+
+        <Header as='h4'>
           Airbnb
         </Header>
         <p>
@@ -56,6 +78,17 @@ const Planning = ({}) => {
         <Header as='h2'>
           Things to do in and around Kingston
         </Header>
+        <Header as='h4'>Restaurants</Header>
+        <List>
+          <List.Item href='https://www.facebook.com/chopsgrillekingston/'>Chops Grille (Steakhouse)</List.Item>
+          <List.Item href='http://diegostaqueria.com/'>Diego's Taqueria (Mexican street food)</List.Item>
+          <List.Item href='https://www.dietzstadiumdiner.com/'>Dietz Stadium Diner</List.Item>
+          <List.Item href='http://frankguidoslittleitaly.com/'>Frank Guido's Little Italy (Italian)</List.Item>
+          <List.Item href='https://hoffmanhousetavern.com/'>Hoffman House (American / tavern fare)</List.Item>
+          <List.Item href='http://www.kyotokingston.com'>Kyoto Sushi (Japanese)</List.Item>
+          <List.Item href='http://www.laflorentina.net/'>La Florentina (Wood-fired pizzeria)</List.Item>
+          <List.Item href='http://www.savonas.com/kingston/'>Savona's Trattoria (Italian)</List.Item>
+        </List>
         <Header as='h4'>Breweries</Header>
         <p>
           The Hudson Valley is home to a number of great craft breweries. Here are some of our favorites in and around Kingston:
@@ -115,7 +148,12 @@ const Planning = ({}) => {
           By bus (from NYC)
         </Header>
         <p>
-          Take the Adirondack Trailways Bus from the New York Port Authority Bus Terminal to Kingston, NY. The bus station is approximately 1/2 mile from the Best Western Plus. Tickets may be purchased in advance online, from <a href="https://trailwaysny.com/purchase-tickets/" target='__blank'>https://trailwaysny.com/purchase-tickets/</a>, and cost approximately $27 per person, each direction.
+          Take the Adirondack Trailways Bus from the New York Port Authority Bus
+          Terminal to Kingston, NY. The bus station is approximately 1/2 mile
+          from the Best Western Plus. Tickets may be purchased in advance
+          online, from <a href="https://trailwaysny.com/" target='__blank'>https://trailwaysny.com/</a>,
+          and cost approximately $28 per person, each direction. The trip takes
+          approximately 1h45m-2h10m, depending on which stops are made.
         </p>
 
         <Divider />
