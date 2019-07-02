@@ -30,6 +30,17 @@ const Planning = ({}) => {
           Best Western Plus
         </Header>
         <p>
+          <b>AVAILABILITY UPDATE:</b> As of July 2, there are no more rooms
+          available at the discounted rate for the entire time period we originally reserved (check-in
+          on Thursday the 8th and check-out on Sunday the 11th). However, some
+          rooms are still available for Friday (the 9th) through Sunday (the
+          11th) only, at the discounted rate. You will have to change the date
+          to confirm that this is still available. If all rooms become booked
+          for these days as well, guests will have to either book a room at the
+          regular rate, or will need to find lodging elsewhere (if we can help
+          by making recommendations, please feel free to reach out).
+        </p>
+        <p>
           We have secured rooms at The Best Western Plus, conveniently located
           only 0.7 miles from the Senate Garage. You can reserve a room at a
           discounted rate by calling the hotel or using the link below to
