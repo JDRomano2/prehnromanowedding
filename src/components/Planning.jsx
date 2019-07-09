@@ -30,7 +30,15 @@ const Planning = ({}) => {
           Best Western Plus
         </Header>
         <p>
-          <b>AVAILABILITY UPDATE:</b> As of July 2, there are no more rooms
+          The block of rooms reserved at the Best Western Plus are no longer
+          available for new reservations, but you may be able to find lodging at
+          the regular rate, or at another hotel. We encourage guests to also
+          consider using Airbnb, which can be an economical way to obtain great
+          lodging at a good rate. Please let us know if you need any help or
+          recommendations!
+        </p>
+        <p>
+          <strike><b>AVAILABILITY UPDATE:</b> As of July 2, there are no more rooms
           available at the discounted rate for the entire time period we originally reserved (check-in
           on Thursday the 8th and check-out on Sunday the 11th). However, some
           rooms are still available for Friday (the 9th) through Sunday (the
@@ -38,18 +46,22 @@ const Planning = ({}) => {
           to confirm that this is still available. If all rooms become booked
           for these days as well, guests will have to either book a room at the
           regular rate, or will need to find lodging elsewhere (if we can help
-          by making recommendations, please feel free to reach out).
+          by making recommendations, please feel free to reach out).</strike>
         </p>
         <p>
-          We have secured rooms at The Best Western Plus, conveniently located
-          only 0.7 miles from the Senate Garage. You can reserve a room at a
-          discounted rate by calling the hotel or using the link below to
-          reserve online (please note that rooms are subject to availability and
-          the discounted rate may not be available close to the date of the
-          wedding):
+          <strike>
+            We have secured rooms at the Best Western Plus, conveniently located
+            only 0.7 miles from the Senate Garage. You can reserve a room at a
+            discounted rate by calling the hotel or using the link below to
+            reserve online (please note that rooms are subject to availability and
+            the discounted rate may not be available close to the date of the
+            wedding):
+          </strike>
         </p>
         <p>
-          <a href="https://www.bestwestern.com/en_US/book/hotel-rooms.33159.html?groupId=K44SS2E9" target='__blank'>https://www.bestwestern.com/en_US/book/hotel-rooms.33159.html?groupId=K44SS2E9</a>
+          <strike>
+            <a href="https://www.bestwestern.com/en_US/book/hotel-rooms.33159.html?groupId=K44SS2E9" target='__blank'>https://www.bestwestern.com/en_US/book/hotel-rooms.33159.html?groupId=K44SS2E9</a>
+          </strike>
         </p>
         <Header as='h4'>
           1850 House
