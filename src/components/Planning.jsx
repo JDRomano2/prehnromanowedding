@@ -30,7 +30,7 @@ const Planning = ({}) => {
           Best Western Plus
         </Header>
         <p>
-          The block of rooms reserved at the Best Western Plus are no longer
+          The block of rooms held at the Best Western Plus is no longer
           available for new reservations, but you may be able to find lodging at
           the regular rate, or at another hotel. We encourage guests to also
           consider using Airbnb, which can be an economical way to obtain great
