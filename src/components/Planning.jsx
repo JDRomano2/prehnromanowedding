@@ -11,14 +11,14 @@ const Planning = ({}) => {
         <ul>
           <li><b>Saturday, August 10</b></li>
           <ul>
-            <li><u>2:00pm-3:30pm:</u> Wedding (<i>St. Peter's Church, Rosendale</i>)</li>
-            <li><u>5:30pm-6:30pm:</u> Cocktail Hour (<i>Senate House grounds, Kingston</i>)</li>
-            <li><u>6:30pm-10:30pm:</u> Reception (<i>Senate Garage, Kingston</i>)</li>
-            <li><u>10:30pm-?:</u> After-Party (<i>TBD, Uptown Kingston</i>)</li>
+            <li><u>2:00pm-3:30pm:</u> Wedding (<i><a href="https://stpeterrosendale.org" target='__blank'>St. Peter's Church</a>, Rosendale</i>)</li>
+            <li><u>5:30pm-6:30pm:</u> Cocktail Hour (<i><a href="http://senatehousekingston.org" target='__blank'>Senate House grounds</a>, Kingston</i>)</li>
+            <li><u>6:30pm-10:30pm:</u> Reception (<i><a href="https://www.senategarage.com" target='__blank'>Senate Garage</a>, Kingston</i>)</li>
+            <li><u>10:30pm-?:</u> After-Party (<i><a href="http://bspkingston.com" target='__blank'>BSP</a>, Uptown Kingston</i>)</li>
           </ul>
           <li><b>Sunday, August 11</b></li>
           <ul>
-            <li><u>10:00am-12:00pm:</u> Farewell Brunch (<i>Deising's Bakery, Kingston</i>)</li>
+            <li><u>10:00am-12:00pm:</u> Farewell Brunch (<i><a href="http://www.deisings.com" target='__blank'>Deising's Bakery</a>, Uptown Kingston</i>)</li>
           </ul>
         </ul>
 
