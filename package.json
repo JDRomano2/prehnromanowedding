@@ -36,7 +36,7 @@
     "webpack-dev-server": "^3.1.8"
   },
   "dependencies": {
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "lodash": "^4.17.11",
     "morgan": "^1.9.1",
     "react": "^16.5.1",
